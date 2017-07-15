@@ -38,7 +38,7 @@ p.credit{
 <body>
 <div class="main-container">
     <div class="section-demo">
-	<img src="dreamzx.jpg" style="margin-left:15%;width:150px;hieght:75px" align="center" >
+	<img src="dreamzx.jpg" style="margin-left:15%;width:150px;hieght:75px" align="center" onclick="myfunction()">
 	
         <canvas id="demo"></canvas>
        
@@ -54,6 +54,13 @@ p.credit{
 </div>
 <script src="jquery.min.js"></script>
 <script>
+function myfunction()
+	{
+		var audio = document.getElementById('myAudio');
+		audio.play();
+	}
+	
+	
 var WIDTH;
 var HEIGHT;
 var canvas;
