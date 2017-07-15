@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.dreamzpodcast.example"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Dreamz Podcast</name>
+
+  <description>
+      The coolest kasi podcast.
+  </description>
+
+  <author href="www.apptechnologies.co.za" email="support@apptechnologies.com">
+      App Technologies
+  </author>
+  <icon src="icon.png" />
+
+</widget>
